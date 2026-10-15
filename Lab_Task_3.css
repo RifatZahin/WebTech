@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    padding-top: 55px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222222;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #66ccff;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #dddddd;
+}
+
+section {
+    width: 85%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h2 {
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+#about {
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.logo-img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #999999;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333333;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+fieldset {
+    border: 1px solid #999999;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #2563eb;
+    padding: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #999999;
+}
+
+input[type="radio"] {
+    margin: 5px;
+}
+
+.required-star {
+    color: red;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    background-color: #2563eb;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #666666;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+input[type="reset"]:hover {
+    background-color: #444444;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555555;
+}
+
+.footer-link {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

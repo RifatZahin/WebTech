@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIUB Coding Club</title>
+    <link rel="icon" type="image/png" href="codeclub.png">
+    <link rel="stylesheet" href="Lab_Task_3.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#register">Register</a>
+    </nav>
+
+    <header>
+        <h1>AIUB Coding Club</h1>
+        <p>A place for student developers to learn, build and connect!</p>
+    </header>
+
+    <section id="about">
+        <h2>About Our Club</h2>
+        <img src="cclublogo.jpg" alt="AIUB Coding Club Logo" class="logo-img">
+        <p>
+            The AIUB Coding Club helps students improve their programming skills,
+            practice competitive programming, work on team projects and prepare
+            for careers in technology through workshops, hackathons and tech talks.
+        </p>
+    </section>
+
+    <section id="schedule">
+        <h2>Weekly Schedule</h2>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Location</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">4:00 PM - 6:00 PM</td>
+                <td>Web Development</td>
+                <td rowspan="2">DS0208</td>
+            </tr>
+
+            <tr>
+                <td>Data Structures and Algorithms Practice</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td>3:00 PM - 6:00 PM</td>
+                <td>Open Hackathon and Project Collaboration</td>
+                <td>Auditorium</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Saturday</td>
+                <td rowspan="2">12:00 PM - 3:00 PM</td>
+                <td>Competitive Programming Class (Beginners)</td>
+                <td>2201</td>
+            </tr>
+
+            <tr>
+                <td>Competitive Programming Class (Intermediates)</td>
+                <td>2203</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="register">
+        <h2>Join the Club</h2>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Student Membership Form</legend>
+
+                <label for="fullname">Full Name <span class="required-star">*</span>:</label><br>
+                <input type="text" id="fullname" name="fullname" required>
+                <br><br>
+
+                <label for="email">Email Address <span class="required-star">*</span>:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password">
+                <br><br>
+
+                <label for="male">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+                <br><br>
+
+                <label for="department">Department:</label><br>
+                <select id="department" name="department">
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="IPE">IPE</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2026 AIUB Coding Club. Visit the official
+            <a href="https://www.aiub.edu" target="_blank" class="footer-link">University Website</a>.
+        </p>
+    </footer>
+
+</body>
+</html>
